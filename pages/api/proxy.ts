@@ -2,7 +2,7 @@ import handleRequest from "../../src/handle-request";
 
 export const maxDuration = 300; 
 export const config = {
-  // runtime: "edge", // this is a pre-requisite
+  runtime: "edge", // this is a pre-requisite
   // exclude hongkong cause it's not supported by OpenAI
   regions: [
     "sin1",
